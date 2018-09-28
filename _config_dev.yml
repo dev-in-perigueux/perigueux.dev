@@ -1,0 +1,9 @@
+# Development configuration (comment for Production)
+limit_posts: 3
+future: true
+profile: true
+
+sass:
+  style: uncompressed
+
+robots: noindex,nofollow

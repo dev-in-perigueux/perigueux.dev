@@ -1,0 +1,18 @@
+title: Dev'In Périgueux
+email: contact@dev-in-perigueux.fr
+description: >-
+  Une communauté de développeurs et de développeurs qui se retrouvent régulièrement pour aborder ensemble leur passion du développement logiciel. Web, systèmes embarqués, données… un rendez-vous complètement irrégulier avec des gens qui sortent de l'ordinaire !
+baseurl: ""
+url: "https://dev-in-perigueux.fr"
+twitter_username: devin_perigueux
+github_username:  dev-in-perigueux
+meetup_url: https://www.meetup.com/fr-FR/Dev-In-Perigueux/
+
+# Build settings
+markdown: kramdown
+theme: jekyll-athena
+plugins:
+  - jekyll-feed
+
+feed:
+  path: feed.xml
