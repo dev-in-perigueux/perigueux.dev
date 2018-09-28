@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/borisschapira/athena
+  revision: 73f0f1f173a0490d9c9aa5d57aff131c4b89664d
+  branch: master
+  specs:
+    jekyll-athena (0.0.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -44,9 +51,10 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
-    jekyll-athena (0.0.2)
     jekyll-feed (0.11.0)
       jekyll (~> 3.3)
+    jekyll-microtypo (0.2.3)
+      jekyll (>= 3.0, < 4.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-sitemap (1.2.0)
@@ -94,8 +102,9 @@ DEPENDENCIES
   ffi (~> 1.9, >= 1.9.18)
   html-proofer
   jekyll (~> 3.8.4)
-  jekyll-athena (~> 0.0.2)
+  jekyll-athena!
   jekyll-feed (~> 0.6)
+  jekyll-microtypo (~> 0.2.3)
   jekyll-sitemap
   rake
   tzinfo-data

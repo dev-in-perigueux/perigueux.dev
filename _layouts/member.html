@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<article class="container mx-auto px-2">
+
+  {% include page_heading.html %}
+
+  <div class="prose mb-4 py-4">
+    {% if page.email_md5 %}<img src="https://www.gravatar.com/avatar/{{ page.email_md5 }}?s=80&d=404" srcset="https://www.gravatar.com/avatar/{{ page.email_md5 }}?s=80&d=404 80w, https://www.gravatar.com/avatar/{{ page.email_md5 }}?s=160&d=404 160w, https://www.gravatar.com/avatar/{{ page.email_md5 }}?s=240&d=404 240w, https://www.gravatar.com/avatar/{{ page.email_md5 }}?s=320&d=404 320w, https://www.gravatar.com/avatar/{{ page.email_md5 }}?s=640&d=404 640w" sizes="(max-width: 20rem) 5rem, (max-width: 40rem) 10rem, (max-width: 60rem) 15rem, 20rem" style="float:right; padding-left: 20px;" alt="" />{% endif %}{{ content }}
+
+    <p>{% for link in page.links %}<a href="{{ link.url }}">{{ link.name }}</a>{% unless forloop.last %} · {% endunless %}{% endfor %}</p>
+
+    {% assign posts = site.posts | where: author, page.slug | orderby: date %}
+    {% assign size = posts | size %}
+  
+    {% if size > 0 %}
+    <h2>Articles :</h2>
+    <ul>
+      {% for post in posts %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+</article>
+
+<div class="container mx-auto px-2 py-2 clearfix">
+    {% include previous-next.html %}
+</div>

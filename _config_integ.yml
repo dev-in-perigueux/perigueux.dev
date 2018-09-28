@@ -1,2 +1,3 @@
 # Development configuration (comment for Production)
 future: true
+url: "https://dev--dev-in-perigueux.netlify.com"
