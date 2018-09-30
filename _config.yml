@@ -37,7 +37,7 @@ defaults:
 collections:
   members:
     output: true
-    permalink: /membres/:slug
+    permalink: /membres/:slug.html
 
 feed:
   path: feed.xml
