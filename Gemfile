@@ -15,7 +15,6 @@ end
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   gem "jekyll-microtypo", "~> 0.2.3"
-  gem "jekyll-redirect-from", "~> 0.14.0"
   gem 'jekyll-sitemap'
 end
 

@@ -1,0 +1,12 @@
+/android-chrome-192x192.png /.well-known/android-chrome-192x192.png 200
+/android-chrome-512x512.png /.well-known/android-chrome-512x512.png 200
+/apple-touch-icon.png /.well-known/apple-touch-icon.png 200
+/browserconfig.xml  /.well-known/browserconfig.xml 200
+/favicon-16x16.png  /.well-known/favicon-16x16.png 200
+/favicon-32x32.png  /.well-known/favicon-32x32.png 200
+/favicon.ico  /.well-known/favicon.ico 200
+/manifest.json  /.well-known/manifest.json 200
+/mstile-150x150.png /.well-known/mstile-150x150.png 200
+/robots.txt /.well-known/robots.txt 200
+
+/2018/09/19/premiere-reunion.html /2018-09-premiere-reunion/ 301
