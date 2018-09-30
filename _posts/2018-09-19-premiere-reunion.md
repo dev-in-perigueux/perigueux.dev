@@ -1,6 +1,8 @@
 ---
 title:  "Première réunion à l'Escale numérique"
 author: boris-schapira
+redirect_from:
+  - /2018/09/19/premiere-reunion.html
 ---
 
 Hier soir, nous nous sommes réunis pour la première fois à [l'escale numérique](http://lescalenumerique.fr/), un espace de <i lang="en" title="lieu de travail partagé">coworking</i> situé rue du Président Wilson à Périgueux, à l'invitation de {% include member.html who="pascal-menut" %}.

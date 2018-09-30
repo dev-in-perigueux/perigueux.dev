@@ -55,6 +55,8 @@ GEM
       jekyll (~> 3.3)
     jekyll-microtypo (0.2.3)
       jekyll (>= 3.0, < 4.0)
+    jekyll-redirect-from (0.14.0)
+      jekyll (~> 3.3)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-sitemap (1.2.0)
@@ -105,6 +107,7 @@ DEPENDENCIES
   jekyll-athena!
   jekyll-feed (~> 0.6)
   jekyll-microtypo (~> 0.2.3)
+  jekyll-redirect-from (~> 0.14.0)
   jekyll-sitemap
   rake
   tzinfo-data

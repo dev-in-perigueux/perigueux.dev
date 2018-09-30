@@ -14,6 +14,8 @@ end
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
+  gem "jekyll-microtypo", "~> 0.2.3"
+  gem "jekyll-redirect-from", "~> 0.14.0"
   gem 'jekyll-sitemap'
 end
 
@@ -22,6 +24,3 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
-
-# Added at 2018-09-28 22:58:07 +0200 by boris:
-gem "jekyll-microtypo", "~> 0.2.3"
