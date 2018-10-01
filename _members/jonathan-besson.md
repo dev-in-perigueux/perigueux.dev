@@ -5,6 +5,8 @@ email_md5: a4ebc2fbcfb7da14be06238d08181bf7
 links:
   - name: Site Web
     url: https://me.jonathan-besson.fr/
+  - name: Blog
+    url: https://www.jonathan-besson.fr/
   - name: Twitter
     url: https://twitter.com/john_besson
 ---
