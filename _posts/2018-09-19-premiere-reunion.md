@@ -15,6 +15,8 @@ Rapidement, la Qualité Web s'est imposée comme sujet de conversation avec [les
 
 Un parfait tremplin pour que {% include member.html who="jonathan-besson" %} puisse démarrer une présentation qu'il avait préparé concernant sa récente découverte de [VueJS](https://vuejs.org/) et la manière dont il a abordé cette nouvelle compétence qu'il souhaite ajouter à son arc.
 
+![Jonathan présentant ses slides](/assets/images/2018-09-19-john.jpg)
+
 Les <i lang="en">Web Fonts</i> utilisées par Jonathan ont servi à quelques explications de {% include member.html who="jacques-pyrat" %} sur le <i lang="en" title="Crénage">kerning</i>, c'est-à-dire l'ajustement entre les lettres d'une police de caractères, puis l'ensemble du groupe est revenu sur la problématique des compétences et de leur évaluation par le biais d'entretiens avant de glisser sur le droit du travail et la rémunération.
 
 Une soirée bien chargée, donc, avec de nombreux sujets que nous devrions avoir le loisir de reprendre par la suite. Nous nous sommes quittés peu avant minuit avec la certitude de recommencer bientôt !

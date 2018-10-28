@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/borisschapira/athena
-  revision: 5720737bca64d5c7fab30df90be3b1b28e4d60f2
+  revision: 977f38565515e4f18dcd0483cabbb20d063cef4a
   branch: master
   specs:
     jekyll-athena (0.0.2)
