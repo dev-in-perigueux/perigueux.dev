@@ -1,4 +1,2 @@
-# Development configuration (comment for Production)
-limit_posts: 3
-future: true
-profile: true
+future: false
+profile: false
